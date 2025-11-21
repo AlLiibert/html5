@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Mock site</title>
+
+    <style>
+
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            z-index: 1000;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        main {
+            margin-top: 140px;
+            margin-bottom: 140px;
+            text-align: center;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer ul {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        footer ul li {
+            display: inline;
+            margin: 0 25px;
+        }
+
+
+        .kast {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 40px 20px;
+            background-color: black;
+            color: white;
+            border-radius: 6px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li style="color: lightblue;"><a>Bränd</a></li>
+            <li><a>Products</a></li>
+            <li><a>Solutions</a></li>
+            <li><a>Pricing</a></li>
+            <li><a>Sign-in/up</a></li>
+            <li><a>Meet</a></li>
+            <li><a href="#main">Skip to content</a></li>
+        </ul>
+    </nav>
+
+    <main id="main">
+        <section>
+            <div class="kast">
+                <h2>Promo</h2>
+            </div>
+        </section>
+
+        <section>
+            <div class="kast">
+                <h2>News</h2>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <ul>
+            <li><a>About</a></li>
+            <li><a>Download</a></li>
+            <li><a>Sales</a></li>
+            <li><a>Support</a></li>
+        </ul>
+    </footer>
+
+</body>
+</html>
